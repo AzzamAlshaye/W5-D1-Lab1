@@ -16,8 +16,4 @@ fetch("https://rickandmortyapi.com/api/character")
       img.classList.add("img-card");
       container.appendChild(card);
     });
-  })
-  .catch((err) => {
-    loading.textContent = "Failed to load characters.";
-    console.error(err);
   });
